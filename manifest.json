@@ -1,0 +1,66 @@
+{
+  "package_name": "ArabicEduCrawler Thesis Dataset Sample",
+  "release_type": "public_sample",
+  "description": "Balanced GitHub-ready public sample drawn from the final cleaned ArabicEduCrawler corpus.",
+  "selection_rule": "500 documents selected from the final cleaned chunk inventory with balanced spider coverage and controlled chunk counts.",
+  "statistics": {
+    "document_count": 500,
+    "chunk_count": 1080,
+    "documents_with_multiple_chunks": 325,
+    "min_chunks_per_document": 1,
+    "max_chunks_per_document": 5,
+    "spider_distribution": {
+      "alukah": 125,
+      "adab": 125,
+      "arabic_wiki": 125,
+      "shamela": 125
+    },
+    "chunk_count_distribution": {
+      "1": 175,
+      "2": 165,
+      "3": 90,
+      "4": 45,
+      "5": 25
+    }
+  },
+  "files": [
+    {
+      "path": "chunks_text.json",
+      "format": "json",
+      "granularity": "chunk",
+      "required_fields": [
+        "global_id",
+        "chunk_id",
+        "chunk_text"
+      ],
+      "description": "Final cleaned chunk text without linguistic annotations."
+    },
+    {
+      "path": "chunks_annotated.jsonl",
+      "format": "jsonl",
+      "granularity": "chunk",
+      "required_fields": [
+        "global_id",
+        "chunk_id",
+        "chunk_text",
+        "tokens",
+        "sentences",
+        "ner_entities",
+        "pos_distribution"
+      ],
+      "description": "Chunk text with automatic linguistic annotations."
+    },
+    {
+      "path": "metadata.jsonl",
+      "format": "jsonl",
+      "granularity": "document",
+      "required_fields": [
+        "global_id",
+        "chunk_ids",
+        "url",
+        "spider_name"
+      ],
+      "description": "MongoDB-backed document metadata aligned to the public sample through chunk_ids."
+    }
+  ]
+}
