@@ -1,6 +1,6 @@
 # ArabicEduCrawler: Arabic Educational Web Corpus Sample
 
-Version: 1.0
+Version: 1.0 
 Year: 2026
 
 ================================================================================
@@ -37,25 +37,25 @@ The primary objectives of the ArabicEduCrawler dataset are:
 ================================================================================ 
 ## 3. Dataset Structure
 
-This release is organized into three aligned dataset files and one manifest:
+This release is organized into three aligned dataset files:
 
-chunks_text.json
+#### chunks_text.json
 A JSON file containing final cleaned chunk text without linguistic annotations.
 Each record contains:
 
-global_id
+- global_id
 A stable identifier for the source document.
 
-chunk_id
+- chunk_id
 A stable identifier for the chunk within the source document.
 
-title
+- title
 The document title.
 
-chunk_text
+- chunk_text
 The final cleaned text of the chunk.
 
-chunks_annotated.jsonl
+#### chunks_annotated.jsonl
 A JSONL file containing the same chunk subset enriched with automatic
 linguistic annotations. Each record contains the chunk text together with
 fields such as:
@@ -72,7 +72,7 @@ sentences
 ner_entities
 pos_distribution
 
-metadata.jsonl
+#### metadata.jsonl
 A JSONL file containing document-level metadata exported from MongoDB and
 aligned to the sample through chunk_ids. Each record contains:
 
@@ -105,7 +105,7 @@ metadata
 lang_labels
 lang_confidences
 
-Example metadata.jsonl record:
+#### Example metadata.jsonl record:
 {
 "global_id": "20260287-6375-4904-8ae8-045d22fc9474",
 "chunk_ids": ["20260287-6375-4904-8ae8-045d22fc9474_0"],
@@ -115,7 +115,7 @@ Example metadata.jsonl record:
 "spider_name": "alukah"
 }
 
-Example chunks_text.json record:
+#### Example chunks_text.json record:
 
 {
 "global_id": "20260287-6375-4904-8ae8-045d22fc9474",
@@ -192,11 +192,8 @@ If you use this dataset, please cite:
 
 Author:
 Afyaa Atyan Alkhamisi
-
 MSc Researcher, Information Technology
-
 King Abdulaziz University
-
 Jeddah, Saudi Arabia
 
 Contact:
