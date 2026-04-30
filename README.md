@@ -5,7 +5,7 @@ Year: 2026
 
 ================================================================================
 
-1. # Dataset Overview
+## 1. Dataset Overview
 
 ArabicEduCrawler is a structured Arabic educational web corpus developed to
 support research in Arabic natural language processing, semantic search,
@@ -22,7 +22,7 @@ dataset. The sample is designed to be representative, diverse across sources,
 and suitable for GitHub distribution.
 
 ================================================================================ 
-# 2. Dataset Purpose
+## 2. Dataset Purpose
 
 The primary objectives of the ArabicEduCrawler dataset are:
 
@@ -35,7 +35,7 @@ The primary objectives of the ArabicEduCrawler dataset are:
   preserving the link between document metadata and chunked text.
 
 ================================================================================ 
-# 3. Dataset Structure
+## 3. Dataset Structure
 
 This release is organized into three aligned dataset files and one manifest:
 
@@ -133,7 +133,7 @@ This structure enables experiments that connect document-level provenance and
 metadata with chunk-level text and annotation outputs.
 
 ================================================================================ 
-# 4. Sample Scope
+## 4. Sample Scope
 
 This public sample contains:
 
@@ -152,7 +152,7 @@ examples in order to expose users to diverse corpus structure without making
 the public release too large for repository distribution.
 
 ================================================================================ 
-# 5. Intended Uses
+## 5. Intended Uses
 
 The ArabicEduCrawler dataset is intended for:
 
@@ -165,7 +165,7 @@ The ArabicEduCrawler dataset is intended for:
 - Academic and educational use
 
 ================================================================================ 
-# 6. License
+## 6. License
 
 This dataset is released under the Apache License, Version 2.0.
 
@@ -181,19 +181,22 @@ License details:
 https://www.apache.org/licenses/LICENSE-2.0
 
 ================================================================================ 
-# 7. Citation
+## 7. Citation
 
 If you use this dataset, please cite:
 
 
 
 ================================================================================ 
-# 8. Author and Contact
+## 8. Author and Contact
 
 Author:
 Afyaa Atyan Alkhamisi
+
 MSc Researcher, Information Technology
+
 King Abdulaziz University
+
 Jeddah, Saudi Arabia
 
 Contact:
@@ -202,7 +205,7 @@ Contact:
 - af.alkhamissi@gmail.com
 
 ================================================================================ 
-# 9. Disclaimer
+## 9. Disclaimer
 
 This dataset is intended for research and educational purposes only. Although
 care was taken to preserve provenance, clean text, and structural consistency,
