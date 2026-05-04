@@ -167,18 +167,18 @@ The ArabicEduCrawler dataset is intended for:
 ================================================================================ 
 ## 6. License
 
-This dataset is released under the Apache License, Version 2.0.
+This dataset is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
 
-You may:
+You are free to:
 
-- Use the dataset for research and development
-- Reproduce and redistribute the dataset
-- Modify, transform, and build upon the dataset
+- Share — copy and redistribute the material
+- Adapt — remix, transform, and build upon the material
 
-Under the terms of the Apache License 2.0.
+Under the condition that appropriate credit is given.
 
 License details:
-https://www.apache.org/licenses/LICENSE-2.0
+https://creativecommons.org/licenses/by/4.0/
 
 ================================================================================ 
 ## 7. Citation
