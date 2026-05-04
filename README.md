@@ -7,19 +7,11 @@ Year: 2026
 
 ## 1. Dataset Overview
 
-ArabicEduCrawler is a structured Arabic educational web corpus developed to
-support research in Arabic natural language processing, semantic search,
-focused web crawling, corpus construction, and linguistic annotation.
+ArabicEduCrawler is a structured Arabic educational web corpus developed to support research in Arabic natural language processing, semantic search, focused web crawling, corpus construction, and linguistic annotation.
 
-The dataset was built from Arabic educational content collected from
-heterogeneous live web sources through an AI-assisted focused crawling
-framework. The pipeline integrates domain-aware source selection, Arabic
-language filtering during crawling, metadata preservation, sentence-aware
-chunking, and automatic linguistic annotation.
+The dataset was created from Arabic educational content collected from diverse live web sources through an AI-assisted focused crawling framework. The pipeline combines domain-aware source selection, Arabic language filtering during crawling using FastText, metadata preservation, sentence-aware chunking, and automatic linguistic annotation using GateNLP and Stanza.
 
-This repository provides a public sample release of the ArabicEduCrawler
-dataset. The sample is designed to be representative, diverse across sources,
-and suitable for GitHub distribution.
+This repository provides a public sample release of the ArabicEduCrawler dataset. The sample is intended to be representative, diverse across sources, and suitable for GitHub distribution, while the full dataset is openly available on Zenodo at https://doi.org/10.5281/zenodo.19996297.
 
 ================================================================================ 
 ## 2. Dataset Purpose
