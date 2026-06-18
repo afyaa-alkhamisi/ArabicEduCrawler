@@ -176,21 +176,25 @@ https://creativecommons.org/licenses/by/4.0/
 ## 7. Citation
 
 If you use this dataset, please cite:
-APA:
-Alkhamisi, A. A., Bamashmoos, F., & Alsaggaf, W. (2026). ArabicEduCrawler: AI-Assisted Focused Crawling and Corpus Construction for Arabic Educational Web Content. Applied Sciences, 16(12), 5964. https://doi.org/10.3390/app16125964
 
-BibTeX:
+### APA
+
+Alkhamisi, A. A., Bamashmoos, F., & Alsaggaf, W. (2026). *ArabicEduCrawler: AI-Assisted Focused Crawling and Corpus Construction for Arabic Educational Web Content*. Applied Sciences, 16(12), 5964. https://doi.org/10.3390/app16125964
+
+### BibTeX
+
+```bibtex
 @Article{app16125964,
-AUTHOR = {Alkhamisi, Afyaa Atyan and Bamashmoos, Fatmah and Alsaggaf, Wafaa},
-TITLE = {ArabicEduCrawler: AI-Assisted Focused Crawling and Corpus Construction for Arabic Educational Web Content},
-JOURNAL = {Applied Sciences},
-VOLUME = {16},
-YEAR = {2026},
-NUMBER = {12},
-ARTICLE-NUMBER = {5964},
-URL = {https://www.mdpi.com/2076-3417/16/12/5964},
-ISSN = {2076-3417},
-DOI = {10.3390/app16125964}
+  AUTHOR = {Alkhamisi, Afyaa Atyan and Bamashmoos, Fatmah and Alsaggaf, Wafaa},
+  TITLE = {ArabicEduCrawler: AI-Assisted Focused Crawling and Corpus Construction for Arabic Educational Web Content},
+  JOURNAL = {Applied Sciences},
+  VOLUME = {16},
+  YEAR = {2026},
+  NUMBER = {12},
+  ARTICLE-NUMBER = {5964},
+  URL = {https://www.mdpi.com/2076-3417/16/12/5964},
+  ISSN = {2076-3417},
+  DOI = {10.3390/app16125964}
 }
 
 
