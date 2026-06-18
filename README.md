@@ -196,7 +196,7 @@ Alkhamisi, A. A., Bamashmoos, F., & Alsaggaf, W. (2026). *ArabicEduCrawler: AI-A
   ISSN = {2076-3417},
   DOI = {10.3390/app16125964}
 }
-
+```
 
 
 
